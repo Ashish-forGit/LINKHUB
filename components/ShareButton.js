@@ -5,7 +5,7 @@ import { toast } from 'react-toastify';
 const ShareButton = () => {
     const router = useRouter();
     const copyLink = () =>{
-        navigator.clipboard.writeText(`http://localhost:3000/${router.query.handle}`)
+        navigator.clipboard.writeText(`https://linkhub-chi.vercel.app/${router.query.handle}`)
         toast('Copied to clipboard')
 
     }

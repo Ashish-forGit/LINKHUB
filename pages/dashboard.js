@@ -47,7 +47,9 @@ const dashboard = () => {
             <LinkBox lbTitle='Growth' lbNumber='30%' lbSvg='ig' lbTheme='blue' />
           </section>
 
-          <section></section>
+          <section>
+            
+          </section>
         </main>
       </div>
     </>

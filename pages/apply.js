@@ -21,7 +21,7 @@ const Apply = () => {
     e.preventDefault();
     if (!category) return toast.error("Add a category");
     // backend part
-    fetch("http://localhost:8000/api/register", {
+    fetch("https://linkhub-server-g1sd.onrender.com/api/register", {
       method: "POST",
       headers: {
         "content-type": "application/json"

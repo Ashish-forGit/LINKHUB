@@ -32,7 +32,7 @@ const links = () => {
       title: titlesArray[index]
     }));
  
-    fetch(`http://localhost:8000/save/links`, {
+    fetch(`https://linkhub-server-g1sd.onrender.com/save/links`, {
       method: "POST",
       headers: {
         "Content-type": "application/json"
@@ -54,7 +54,7 @@ const links = () => {
  
   useEffect(() => {
     if (!localStorage.getItem("LinkTreeToken")) return router.push("/login");
-    fetch(`http://localhost:8000/load/links`, {
+    fetch(`https://linkhub-server-g1sd.onrender.com/load/links`, {
       method: "POST",
       headers: {
         "Content-type": "application/json"

@@ -23,7 +23,7 @@ const Handle = () => {
 
     useEffect(() => {
         if (router.query?.handle) {
-          fetch(`http://localhost:8000/get/${router.query.handle}`)
+          fetch(`https://linkhub-server-g1sd.onrender.com/get/${router.query.handle}`)
             .then((res) => res.json())
             .then((data) => {
               if (data.status === "error") return toast.error(data.error);
@@ -41,7 +41,7 @@ const Handle = () => {
 
       // useEffect(()=>{
       //   if (router.query?.handle) {
-      //     fetch(`http://localhost:8000/get/socials/${router.query.handle}`)
+      //     fetch(`https://linkhub-server-g1sd.onrender.com/get/socials/${router.query.handle}`)
       //       .then((res) => res.json())
       //       .then((data) => {
       //         if (data.status === "error") return toast.error(data.error);

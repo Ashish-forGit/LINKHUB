@@ -18,7 +18,7 @@ const UserHeader = () => {
   useEffect(() => {
     if (!localStorage.getItem("LinkTreeToken"))
       return (window.location.href = "/login");
-    fetch("http://localhost:8000/data/dashboard", {
+    fetch("https://linkhub-server-g1sd.onrender.com/data/dashboard", {
       method: "POST",
       headers: {
         "Content-type": "application/json",

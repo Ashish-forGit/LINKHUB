@@ -40,7 +40,7 @@ const profile = () => {
 
   const saveProfile = (e) => {
     e.preventDefault();
-    fetch(`http://localhost:8000/save/profile`, {
+    fetch(`https://linkhub-server-g1sd.onrender.com/save/profile`, {
       method: "POST",
       headers: {
         "Content-type": "application/json"
@@ -62,7 +62,7 @@ const profile = () => {
 
   const saveSocials = (e) => {
     e.preventDefault();
-    fetch(`http://localhost:8000/save/socials`, {
+    fetch(`https://linkhub-server-g1sd.onrender.com/save/socials`, {
       method: "POST",
       headers: {
         "Content-type": "application/json"
@@ -81,7 +81,7 @@ const profile = () => {
  
   useEffect(() => {
     if (!localStorage.getItem("LinkTreeToken")) return router.push("/login");
-    fetch(`http://localhost:8000/load/socials`, {
+    fetch(`https://linkhub-server-g1sd.onrender.com/load/socials`, {
       method: "POST",
       headers: {
         "Content-type": "application/json"

@@ -13,7 +13,7 @@ const Apply = () => {
   const handleLogin = (e) => {
     e.preventDefault();
     // backend here
-    fetch("http://localhost:8000/api/login", {
+    fetch("https://linkhub-server-g1sd.onrender.com/api/login", {
       method: "POST",
       headers: {
         "content-type": "application/json"

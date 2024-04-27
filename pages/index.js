@@ -9,7 +9,7 @@ export default function Home() {
         title="Home"
         description="Welcome to TypeFinance, where we help you to choose the best financing for you"
         image="https://typefinance.com/typefinance-dp.jpg"
-        url="https://typefinance.com"
+        url=""
       />
       
       <Apply />

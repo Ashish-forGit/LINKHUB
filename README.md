@@ -12,6 +12,8 @@ LinkHub is a comprehensive bookmarking application built using the MERN (MongoDB
 - Footer
 - Toast Notifications
 
+![LinkHub Preview](https://i.ibb.co/KsS7zxB/linkhub-preview.png)
+
 ## Backend Repo Link
 
 [Backend Repo](https://github.com/Ashish-forGit/LINKHUB-SERVER)
